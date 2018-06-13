@@ -1,38 +1,32 @@
-
-/* ------------ General CSS ------------ #818080 */
+/** ------------ General CSS ------------ */
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1em;
-    color: black;
-    background-color: black;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 .container {
-    display: flex;
-    flex-flow: row wrap;
-    margin: 0 auto;
-    padding: 0;
-    width: 100vh;
-    height: 100vh;
-}
-
-p {
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+  margin: 0 auto;
+  width: 100vh;
 }
 
 .cube {
-    background-color: #444444;
-    height: 10vh;
-    width: 10vh;
+  background-color: #444444;
+  height: 10vh;
+  width: 10vh;
 }
 
+.cube:active,
+.cube:focus,
 .cube:hover {
-    z-index: 1;
-    box-shadow: 1px 1px 25px 0.1px white;
+  box-shadow: 1px 1px 25px 0.1px white;
+  z-index: 1;
 }
