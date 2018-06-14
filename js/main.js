@@ -3,7 +3,7 @@ const div = document.getElementById("container");
 const tecniColor = (function tecniColor() {
   const fragment = document.createDocumentFragment();
   let element;
-  const divs = 100;
+  const divs = 90;
   const createDivs = param => {
     for (let i = 0; i < param; i += 1) {
       element = document.createElement("div");
